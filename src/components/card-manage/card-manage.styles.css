@@ -1,0 +1,13 @@
+.card-form-row input::-webkit-outer-spin-button,
+.card-form-row input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.card-form-row input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.card-form-row {
+    margin-top: 10px;
+}
