@@ -47,7 +47,7 @@ const CardManage = (props) => {
     const onCardSubmit = async () => {
         const fields = await cardForm.validateFields();
 
-        props.onCardAdded(fields);
+        await props.onCardAdded(fields);
 
         await cardForm.resetFields();
         setPaymentForm({
